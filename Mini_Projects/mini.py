@@ -18,4 +18,4 @@ def test():
     sign_in.click()
     time.sleep(10)
     assert driver.current_url == "https://www.idrive360.com/enterprise/account?upgradenow=true"
-    driver.get_screenshot_as_png()
+    driver.close()
